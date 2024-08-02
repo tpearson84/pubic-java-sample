@@ -1,4 +1,3 @@
-[![Quality Gate Status](https://sonarqube.aws-ss.nsf.gov/api/project_badges/measure?project=com.sample-java-app%3Atomcat-root-war&metric=alert_status&token=sqb_e988f6a647b111acbe3f2642c0cc1afb6cafdde3)](https://sonarqube.aws-ss.nsf.gov/dashboard?id=com.sample-java-app%3Atomcat-root-war)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
