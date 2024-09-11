@@ -1,9 +1,11 @@
 name: Maven Package
 
 on:
-  push:
+  pull_request:
     branches:
-      - 'feat/**'
+      - main
+    types:
+      - closed 
 
 jobs:
   build:
@@ -25,11 +27,3 @@ jobs:
 
     - name: Print Workspace
       run: echo Workspace ${{ github.workspace }}
-
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
-
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
