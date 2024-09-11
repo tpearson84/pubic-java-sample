@@ -1,6 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
 ROOT.war replaces Tomcat's default ROOT application - $TOMCAT_HOME/webapps/ROOT
 
 ## Pre-requisites
