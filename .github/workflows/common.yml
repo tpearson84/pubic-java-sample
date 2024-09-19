@@ -13,14 +13,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
-      - main
-      
+      - main    
   workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch to run the workflow on'
-        required: true
-        default: 'develop'
+  
 jobs:
   build:
-    uses: tpearson84/Reusable-Workflows/.github/workflows/ci-main-workflow.yml@main
+    uses: tpearson84/Reusable-Workflows/.github/workflows/ci-main-maven-workflow.yml@main
