@@ -1,0 +1,19 @@
+name: Run Standard Pipeline
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'feat/**'
+      - 'feature-1'
+      - 'feature-2'
+      - 'feature-3'
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: tpearson84/Reusable-Workflows/.github/workflows/ci-main-workflow.yml@main
