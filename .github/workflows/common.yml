@@ -18,4 +18,4 @@ on:
   
 jobs:
   build:
-    uses: tpearson84/Reusable-Workflows/.github/workflows/ci-main-maven-workflow.yml@main
+    uses: NSF-1950/Reusable-Workflows/.github/workflows/ci-main-maven-workflow.yml@main
